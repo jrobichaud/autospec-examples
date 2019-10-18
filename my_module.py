@@ -6,5 +6,5 @@ class MyClass:
         print(f"param: {param1} and {self.name}")
 
     @staticmethod
-    def some_static_method():
-        print("This is a static method")
+    def some_static_method():  # pragma: no coverage
+        pass
