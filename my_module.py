@@ -3,7 +3,7 @@ class MyClass:
         self.name = name
 
     def some_method(self, param1):
-        print(f"param: {param1} and {self.name}")
+        print("param: {param} and {name}".format(param=param1, name=self.name))
 
     @staticmethod
     def some_static_method():  # pragma: no coverage
